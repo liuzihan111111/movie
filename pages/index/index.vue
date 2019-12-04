@@ -78,4 +78,5 @@
 	.uni-media-list-body{height: auto;}
 	.uni-media-list-text-top{line-height:1.6em;}
 	.uni-list{flex: 1;overflow: auto;}
+	.uni-list-cell{background: #fafafa;}
 </style>

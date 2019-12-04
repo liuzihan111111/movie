@@ -6,4 +6,5 @@
 .uni-media-list-body{height: auto;}
 .uni-media-list-text-top{line-height:1.6em;}
 .uni-list{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;overflow: auto;}
+.uni-list-cell{background: #fafafa;}
 
