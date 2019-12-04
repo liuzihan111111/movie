@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/me/me",
+    "pages/info/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/h.png",
+        "selectedIconPath": "static/img/h-sel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/img/fav.png",
+        "selectedIconPath": "static/img/fav-sel.png",
+        "text": "热映"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/img/u.png",
+        "selectedIconPath": "static/img/u-sel.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

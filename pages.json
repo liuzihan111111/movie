@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Movies"
+			}
+		}
+	    ,{
+            "path" : "pages/list/list",
+            "style" : {"navigationBarTitleText": "热映榜"}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {"navigationBarTitleText": "我"}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {"navigationBarTitleText": "新闻详情"}
+        }
+    ],
+	"tabBar": {  // 底部固定栏
+	   "color": "#7a7e83",
+	   "selectedColor": "#0faeff",
+	   "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/h.png",
+	        "selectedIconPath": "static/img/h-sel.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/list/list",
+	        "iconPath": "static/img/fav.png",
+	        "selectedIconPath": "static/img/fav-sel.png",
+	        "text": "热映"
+	    },{
+	        "pagePath": "pages/me/me",
+	        "iconPath": "static/img/u.png",
+	        "selectedIconPath": "static/img/u-sel.png",
+	        "text": "我"
+	    }]
+	},
+	"globalStyle": {
+	    "navigationBarTextStyle": "white",  // 导航栏标题颜色以及状态栏前景颜色
+	    "navigationBarBackgroundColor": "#0faeff",  // 导航栏背景颜色
+	    "backgroundColor": "#fbf9fe"   // 窗口的背景色
+	}
+
+}
